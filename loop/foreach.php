@@ -3,6 +3,7 @@
 
 	foreach($arr1 as &$value){
 		$value = $value * 2;
+		echo "$value\n";
 	}
 
 	$arr2 = array(
